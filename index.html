@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+       <script src='https://kit.fontawesome.com/ac6bf4de74.js' crossorigin='anonymous'></script>
+
+    <title>Professional Calculator</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body> 
+    <header>
+
+
+
+
+        <div class="clogo">
+            <i class="fa-solid fa-calculator" style="color: #121212;"></i>
+            <h1>Basic Calculator</h1>
+        </div>
+
+        <div class="about1">
+
+            <i class="fa-solid fa-house" style="color: #000000;"></i>
+            <h3>Home</h3>
+            <i class="fa-solid fa-circle-exclamation" style="color: #000000;"></i>
+            <h3>About</h3>
+            <i class="fa-solid fa-phone" style="color: #0d0d0d;"></i>
+            <h3>Contact</h3>
+            
+            
+        </div>
+        
+
+
+
+
+
+    </header>
+  <div class="main">
+      <div class="calculator">
+        <input type="text" id="display" disabled>
+
+        <div class="buttons">
+            <button onclick="pressValue('7')">7</button>
+            <button onclick="pressValue('8')">8</button>
+            <button onclick="pressValue('9')">9</button>
+            <button class="op" onclick="pressValue('/')">÷</button>
+
+            <button onclick="pressValue('4')">4</button>
+            <button onclick="pressValue('5')">5</button>
+            <button onclick="pressValue('6')">6</button>
+            <button class="op" onclick="pressValue('*')">×</button>
+
+            <button onclick="pressValue('1')">1</button>
+            <button onclick="pressValue('2')">2</button>
+            <button onclick="pressValue('3')">3</button>
+            <button class="op" onclick="pressValue('-')">-</button>
+
+            <button onclick="pressValue('0')">0</button>
+            <button onclick="pressValue('.')">.</button>
+            <button class="clear" onclick="clearDisplay()">C</button>
+            <button class="op" onclick="pressValue('+')">+</button>
+
+            <button class="equal" onclick="calculate()">=</button>
+        </div>
+    </div>
+
+  </div>
+    <script src="script.js"></script>
+</body>
+</html>

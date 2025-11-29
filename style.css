@@ -102,11 +102,11 @@ header {
 }
 
 .op {
-    background: #ffd369 !important;
+    background: linear-gradient(135deg, #f06f74, #fad0c4, #fad0c4);
 }
 
 .op:hover {
-    background: #ffb829 !important;
+    background: linear-gradient(135deg, #ff9a9e, #fad0c4, #fad0c4);
 }
 
 .clear {
